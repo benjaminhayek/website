@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  display: grid;
+  grid-template-columns: 22em 1fr;
+  height: 100vh;
+  font-family: 'Istok Web', sans-serif;
+}
