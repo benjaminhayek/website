@@ -11,8 +11,15 @@ class aside extends Component {
             <div className='aside'>
                 <div className='pic-holder'>
                     <img className='profile-pic' src={profilePic} />
-                    <h1 className='name'>Ben Hayek</h1>
-                    <h2 className='title'>Front-end Developer</h2>
+                    <h1 className='name'>BEN HAYEK</h1>
+                    <h2 className='title'>FRONT-END DEVELOPER</h2>
+                </div>
+                <div className='links'>
+                    <button className='about info-links'>ABOUT <i className="fas fa-chevron-right"></i></button>
+                    <button className='portfolio info-links'>PORTFOLIO <i className="fas fa-chevron-right"></i></button>
+                    <button className='skills info-links'>SKILLS <i className="fas fa-chevron-right"></i></button>
+                    <button className='contact info-links'>CONTACT ME <i className="fas fa-chevron-right"></i></button>
+                    <button className='resume info-links'>RESUME <i className="fas fa-chevron-right"></i></button>
                 </div>
             </div>
         )
