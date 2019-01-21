@@ -1,0 +1,10 @@
+.aside {
+    background-image: url('../utils/aside.jpeg');
+    height: 100%;
+    width: 100%;
+}
+.profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
