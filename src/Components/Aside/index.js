@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import profilePic from '../utils/Benjamin-Hayek.jpg';
-import asideImage from '../utils/aside.jpeg'
 import './Aside.css';
 
 class aside extends Component {
@@ -10,7 +9,11 @@ class aside extends Component {
     render(){
         return (
             <div className='aside'>
-                <img className='profile-pic' src={profilePic} />
+                <div className='pic-holder'>
+                    <img className='profile-pic' src={profilePic} />
+                    <h1 className='name'>Ben Hayek</h1>
+                    <h2 className='title'>Front-end Developer</h2>
+                </div>
             </div>
         )
     }

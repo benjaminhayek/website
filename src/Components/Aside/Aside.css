@@ -1,10 +1,25 @@
 .aside {
-    background-image: url('../utils/aside.jpeg');
+    background: linear-gradient(
+        rgba(67, 87, 84, 0.45), 
+        rgba(67, 87, 84, 0.45)
+      ), url('../utils/aside.jpeg');
     height: 100%;
     width: 100%;
+}
+.pic-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
 }
 .profile-pic {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+}
+
+.name, .title {
+    color: white;
+    margin-top: 10px;
 }
