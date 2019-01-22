@@ -87,7 +87,7 @@
     margin-right: 5px;
 }
 
-.aboutSelected, .portfolioSelected {
+.aboutSelected, .portfolioSelected, .resumeSelected {
     color: white;
     cursor: pointer;
     transition: all .2s ease-in-out;

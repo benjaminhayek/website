@@ -40,7 +40,14 @@ class aside extends Component {
                     </NavLink>
                     <button className='skills info-links'>SKILLS <i className="fas fa-chevron-right"></i></button>
                     <button className='contact info-links'>CONTACT ME <i className="fas fa-chevron-right"></i></button>
-                    <button className='resume info-links'>RESUME <i className="fas fa-chevron-right"></i></button>
+                    <NavLink
+                        onClick={() => this.handleSubmit('resumeSelected')}
+                        style={{ textDecoration: 'none' }}
+                        to="/resume"
+                        className={ this.state.selected === 'resumeSelected' ? 'resumeSelected' : 'resume info-links' }
+                        >RESUME <i className="fas fa-chevron-right"></i>
+                    </NavLink>
+                    {/* <button className='resume info-links'>RESUME <i className="fas fa-chevron-right"></i></button> */}
                 </div>
                 <div className='social'>
                     <a href='https://github.com/benjaminhayek' className='github social-btn' ><i className="fab fa-github-square"></i></a>
