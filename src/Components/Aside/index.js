@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import profilePic from '../utils/Benjamin-Hayek.jpg';
 import './Aside.css';
 
@@ -16,7 +17,11 @@ class aside extends Component {
                 </div>
                 <div className='links'>
                     <button className='about info-links'>ABOUT <i className="fas fa-chevron-right"></i></button>
-                    <button className='portfolio info-links'>PORTFOLIO <i className="fas fa-chevron-right"></i></button>
+                    <NavLink
+                        to="/portfolio"
+                        className='porfolio info-links'
+                        >PORTFOLIO <i className="fas fa-chevron-right"></i>
+                    </NavLink>
                     <button className='skills info-links'>SKILLS <i className="fas fa-chevron-right"></i></button>
                     <button className='contact info-links'>CONTACT ME <i className="fas fa-chevron-right"></i></button>
                     <button className='resume info-links'>RESUME <i className="fas fa-chevron-right"></i></button>
