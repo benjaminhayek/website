@@ -6,26 +6,36 @@ import './Aside.css';
 class aside extends Component {
     constructor() {
         super()
+        this.state = {
+            selected: ''
+        }
     }
+
+    handleSubmit = async (name) => {
+        this.setState({ selected: name });
+      }
+
     render(){
         return (
             <div className='aside'>
                 <div className='pic-holder'>
-                    <img className='profile-pic' src={profilePic} />
+                    <img className='profile-pic' alt='prof' src={profilePic} />
                     <h1 className='name'>BEN HAYEK</h1>
                     <h2 className='title'>FRONT-END DEVELOPER</h2>
                 </div>
                 <div className='links'>
-                    <NavLink 
+                    <NavLink
+                        onClick={() => this.handleSubmit('aboutSelected')}
                         style={{ textDecoration: 'none' }}
                         to="/about"
-                        className='about info-links'
+                        className={ this.state.selected === 'aboutSelected' ? 'aboutSelected' : 'about info-links' }
                         >ABOUT <i className="fas fa-chevron-right"></i>
                     </NavLink>
-                    <NavLink 
+                    <NavLink
+                        onClick={() => this.handleSubmit('portfolioSelected')}
                         style={{ textDecoration: 'none' }}
                         to="/portfolio"
-                        className='porfolio info-links'
+                        className={ this.state.selected === 'portfolioSelected' ? 'portfolioSelected' : 'porfolio info-links' }
                         >PORTFOLIO <i className="fas fa-chevron-right"></i>
                     </NavLink>
                     <button className='skills info-links'>SKILLS <i className="fas fa-chevron-right"></i></button>
