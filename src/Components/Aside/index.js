@@ -17,7 +17,8 @@ class aside extends Component {
                 </div>
                 <div className='links'>
                     <button className='about info-links'>ABOUT <i className="fas fa-chevron-right"></i></button>
-                    <NavLink
+                    <NavLink 
+                        style={{ textDecoration: 'none' }}
                         to="/portfolio"
                         className='porfolio info-links'
                         >PORTFOLIO <i className="fas fa-chevron-right"></i>
