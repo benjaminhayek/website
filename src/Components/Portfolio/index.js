@@ -3,6 +3,8 @@ import MTMain from '../utils/screen1.png';
 import MTLogin from '../utils/screen3.png';
 import WOFHome from '../utils/wof-home.png';
 import WOFLogin from '../utils/wof-login.png';
+import EYOEHome from '../utils/eyoe-home.png';
+import EYOECompare from '../utils/eyoe-compare.png';
 import './Portfolio.css';
 
 class Portfolio extends Component {
@@ -71,6 +73,32 @@ class Portfolio extends Component {
                             <div className='mt-right'>
                                 <img className='wof-home' src={WOFHome} />
                                 <img className='wof-login' src={WOFLogin} />
+                            </div>
+                        </div>
+                </div>
+                <hr/>
+                <div className='world-of-flags'>
+                    <h1 className='mt-title'>Educate Yourself on Education!</h1>
+                    <div className='mt-info'>
+                        <div className='mt-left'>
+                                <h2 className='description-title'>DESCRIPTION:</h2>
+                                <h3 className='mt-description'>For this project I was asigned the ProPublica API and early education teachers as a target audience. Educate Yourself on Education filters bills and legislations based on an education criteria to allow users to decide who to vote on. Users can also get more in depth information on all bills queried.</h3>
+                                <h2 className='tech-used-title'>TECHNOLOGIES:</h2>
+                                <div className='tech-holder'>
+                                    <a className='tech-links' href='https://reactjs.org/'>React</a>
+                                    <a className='tech-links' href='https://redux.js.org/'>Redux</a>
+                                    <a className='tech-links' href='https://reacttraining.com/react-router/'>React-Router</a>
+                                    <a className='tech-links' href='https://airbnb.io/enzyme/'>Enzyme</a>
+                                    <a className='tech-links' href='https://jestjs.io/'>Jest</a>
+                                </div>
+                                <h2 className='deployed-links'>LINKS:</h2>
+                                <div className='deployed-container'>
+                                    <a href='https://github.com/benjaminhayek/learn-to-vote' className='heroku'>Link to GitHub</a>
+                                </div>
+                            </div>
+                            <div className='mt-right'>
+                                <img className='eyoe-home' src={EYOEHome} />
+                                <img className='eyoe-compare' src={EYOECompare} />
                             </div>
                         </div>
                 </div>

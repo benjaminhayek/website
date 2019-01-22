@@ -82,9 +82,19 @@ hr {
     margin-bottom: 15px;
 }
 
+.mt-login {
+    margin-bottom: 30px;
+}
+
 .wof-home, .wof-login {
     height: 400px;
     width: 400px;
+}
+
+.eyoe-home, .eyoe-compare {
+    height: 350px;
+    width: 500px;
+    margin-bottom: 15px;
 }
 
 .deployed-container {
