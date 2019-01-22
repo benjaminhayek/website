@@ -1,8 +1,6 @@
 import React from 'react';
 import Hiking from '../utils/hiking.jpg';
 import Kevin from '../utils/kevin.jpg';
-import Fishing from '../utils/fishin.jpg';
-import Broncos from '../utils/broncos.jpg';
 import './About.css';
 
 const About = () => {
