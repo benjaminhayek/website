@@ -47,7 +47,6 @@ class aside extends Component {
                         className={ this.state.selected === 'resumeSelected' ? 'resumeSelected' : 'resume info-links' }
                         >RESUME <i className="fas fa-chevron-right"></i>
                     </NavLink>
-                    {/* <button className='resume info-links'>RESUME <i className="fas fa-chevron-right"></i></button> */}
                 </div>
                 <div className='social'>
                     <a href='https://github.com/benjaminhayek' className='github social-btn' ><i className="fab fa-github-square"></i></a>
