@@ -5,6 +5,9 @@ import WOFHome from '../utils/wof-home.png';
 import WOFLogin from '../utils/wof-login.png';
 import EYOEHome from '../utils/eyoe-home.png';
 import EYOECompare from '../utils/eyoe-compare.png';
+import WeatherlyHome from '../utils/weather-home.png';
+import AutoFill from '../utils/autofill.png';
+import TenDay from '../utils/ten-day.png';
 import './Portfolio.css';
 
 class Portfolio extends Component {
@@ -99,6 +102,31 @@ class Portfolio extends Component {
                             <div className='mt-right'>
                                 <img className='eyoe-home' src={EYOEHome} />
                                 <img className='eyoe-compare' src={EYOECompare} />
+                            </div>
+                        </div>
+                </div>
+                <hr/>
+                <div className='world-of-flags'>
+                    <h1 className='mt-title'>Weathrly!</h1>
+                    <div className='mt-info'>
+                        <div className='mt-left'>
+                                <h2 className='description-title'>DESCRIPTION:</h2>
+                                <h3 className='mt-description'>Weathrly is a web application that allows users to display the current weather in the location the user searches for. The default location will be the current location of the user. Weather data provided by Wunderland API and search functionality utlizied with Prefix Trie we created and published as an NPM module which can be found <a className='wetherly-link' href='https://www.npmjs.com/package/@lkshamus/completeme'>here</a></h3>
+                                <h2 className='tech-used-title'>TECHNOLOGIES:</h2>
+                                <div className='tech-holder'>
+                                    <a className='tech-links' href='https://reactjs.org/'>React</a>
+                                    <a className='tech-links' href='https://airbnb.io/enzyme/'>Enzyme</a>
+                                    <a className='tech-links' href='https://jestjs.io/'>Jest</a>
+                                </div>
+                                <h2 className='deployed-links'>LINKS:</h2>
+                                <div className='deployed-container'>
+                                    <a href='https://github.com/benjaminhayek/Weathrly/' className='heroku'>Link to GitHub</a>
+                                </div>
+                            </div>
+                            <div className='mt-right'>
+                                <img className='weather-home' src={WeatherlyHome} />
+                                <img className='weather-autofill' src={AutoFill} />
+                                <img className='weather-tenday' src={TenDay} />
                             </div>
                         </div>
                 </div>
