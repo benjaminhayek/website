@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import About from '../About';
 import Aside from '../Aside';
 import Portfolio from '../Portfolio';
+import Resume from '../Resume';
 import './App.css';
 
 class App extends Component {
@@ -16,6 +17,9 @@ class App extends Component {
             }} />
           <Route exact path='/about' render={() => {
               return <About />
+            }} />
+          <Route exact path='/resume' render={() => {
+              return <Resume />
             }} />
         </Switch>
       </div>

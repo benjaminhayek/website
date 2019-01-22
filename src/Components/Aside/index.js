@@ -28,19 +28,25 @@ class aside extends Component {
                         onClick={() => this.handleSubmit('aboutSelected')}
                         style={{ textDecoration: 'none' }}
                         to="/about"
-                        className={ this.state.selected === 'aboutSelected' ? 'aboutSelected' : 'about info-links' }
+                        className={ this.state.selected === 'aboutSelected' ? 'aboutSelected' : 'about-btn info-links' }
                         >ABOUT <i className="fas fa-chevron-right"></i>
                     </NavLink>
                     <NavLink
                         onClick={() => this.handleSubmit('portfolioSelected')}
                         style={{ textDecoration: 'none' }}
                         to="/portfolio"
-                        className={ this.state.selected === 'portfolioSelected' ? 'portfolioSelected' : 'porfolio info-links' }
+                        className={ this.state.selected === 'portfolioSelected' ? 'portfolioSelected' : 'porfolio-btn info-links' }
                         >PORTFOLIO <i className="fas fa-chevron-right"></i>
                     </NavLink>
                     <button className='skills info-links'>SKILLS <i className="fas fa-chevron-right"></i></button>
                     <button className='contact info-links'>CONTACT ME <i className="fas fa-chevron-right"></i></button>
-                    <button className='resume info-links'>RESUME <i className="fas fa-chevron-right"></i></button>
+                    <NavLink
+                        onClick={() => this.handleSubmit('resumeSelected')}
+                        style={{ textDecoration: 'none' }}
+                        to="/resume"
+                        className={ this.state.selected === 'resumeSelected' ? 'resumeSelected' : 'resume-btn info-links' }
+                        >RESUME <i className="fas fa-chevron-right"></i>
+                    </NavLink>
                 </div>
                 <div className='social'>
                     <a href='https://github.com/benjaminhayek' className='github social-btn' ><i className="fab fa-github-square"></i></a>

@@ -45,16 +45,12 @@
     margin-left: 130px;
     opacity: 0.5;
     transition: all .2s ease-in-out;
+    overflow: hidden;
 }
 
 .info-links:hover {
     transform: scale(1.5);
     opacity: 1;
-}
-
-.info-links:active {
-    opacity: 1;
-    font-size: 150%;
 }
 
 .social {
@@ -63,7 +59,7 @@
     align-items: flex-end;
     align-content: space-around;
     flex-direction: row;
-    height: 20%;
+    margin-top: 110px;
 }
 
 .social-btn {
@@ -81,17 +77,19 @@
 
 .linked-in {
     margin-left: 5px;
+    margin-bottom: 10px;
 }
 
 .github {
     margin-right: 5px;
+    margin-bottom: 10px;
 }
 
-.aboutSelected, .portfolioSelected {
+.aboutSelected, .portfolioSelected, .resumeSelected {
     color: white;
     cursor: pointer;
     transition: all .2s ease-in-out;
     transform: scale(1.5);
     margin-top: 20px;
-    margin-left: 120px;
+    margin-left: 150px;
 }
