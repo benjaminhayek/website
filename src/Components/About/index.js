@@ -15,6 +15,8 @@ const About = () => {
                     <p className='about-me'>I’ve always sought out opportunities and challenges that are meaningful to me. Although my professional path has taken a sharp turn from where i was less than a year ago — helping to run and manage a grounds staff at Denver Country Club — I've never stopped engaging my passion to help others and solve problems.</p>
 
                     <p className='about-me'>As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. That's why I’m excited to make a big impact at a high growth company.</p>
+
+                    <p className='current-focus'>Current Focus: <a className='focus-link' href='https://www.smashingmagazine.com/2016/10/inclusive-design-patterns/'>Accessability</a> // <a className='focus-link' href='https://vuejs.org/'>VueJS</a> // <a className='focus-link' href='https://www.techuz.com/blog/progressive-web-apps-the-future-of-mobile-web-app-development/'>PWA's</a></p>
                 </div>
                 <div className='main-pic'>
                     <img className='kevin' src={Kevin} />

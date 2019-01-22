@@ -32,6 +32,20 @@ hr {
     width: 100%;
 }
 
+.current-focus {
+    margin-left: 30px;
+    margin-top: 230px;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-weight: bold;
+}
+
+.focus-link {
+    text-decoration: none;
+    color: #6999D9;
+    font-weight: 200;
+}
+
 .about-me {
     margin-left: 30px;
     margin-bottom: 25px;
