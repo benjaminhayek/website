@@ -16,7 +16,12 @@ class aside extends Component {
                     <h2 className='title'>FRONT-END DEVELOPER</h2>
                 </div>
                 <div className='links'>
-                    <button className='about info-links'>ABOUT <i className="fas fa-chevron-right"></i></button>
+                    <NavLink 
+                        style={{ textDecoration: 'none' }}
+                        to="/about"
+                        className='about info-links'
+                        >ABOUT <i className="fas fa-chevron-right"></i>
+                    </NavLink>
                     <NavLink 
                         style={{ textDecoration: 'none' }}
                         to="/portfolio"
