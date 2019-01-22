@@ -1,9 +1,15 @@
+hr {
+    border-top: 1px solid #435754;
+    width: 90%;
+    margin: 0 auto;
+}
+
 .portfolio-page {
     color: #435754;
     overflow: scroll;
 }
 
-.title-holder, .movie-tracker {
+.title-holder, .movie-tracker, .world-of-flags {
     margin-left: 30px;
     margin-top: 30px;
     width: 90%;
@@ -13,6 +19,7 @@
     margin-top: 5px;
     opacity: .85;
     font-size: 1em;
+    margin-bottom: 10px;
 }
 
 .description-title, .mt-description, .deployed-links, .tech-used-title, .tech-holder, .deployed-container {
@@ -21,15 +28,20 @@
     margin-right: 15px;
 }
 
+.description-title, .tech-used-title, .deployed-links {
+    font-size: 1.5em;
+}
+
 .tech-used-title, .deployed-links {
     margin-top: 50px;
 }
 
 .mt-description {
     opacity: .85;
+    font-size: 1em;
 }
 
-.movie-tracker {
+.movie-tracker, .world-of-flags {
     font-size: .85em;
 }
 
@@ -41,6 +53,7 @@
 .tech-holder, .deployed-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .tech-links, .heroku {
@@ -53,13 +66,32 @@
     color: white;
     padding: 2px 15px;
     margin: 5px;
+    width: 100px;
+}
+
+.mt-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .mt-home, .mt-login {
     height: 350px;
     width: 500px;
+    margin-bottom: 15px;
+}
+
+.wof-home, .wof-login {
+    height: 400px;
+    width: 400px;
+}
+
+.deployed-container {
+    flex-wrap: nowrap;
 }
 
 .heroku {
     padding: 10px 25px;
+    width: 40%;
 }
