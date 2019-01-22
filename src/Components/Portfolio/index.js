@@ -111,7 +111,7 @@ class Portfolio extends Component {
                     <div className='mt-info'>
                         <div className='mt-left'>
                                 <h2 className='description-title'>DESCRIPTION:</h2>
-                                <h3 className='mt-description'>Weathrly is a web application that allows users to display the current weather in the location the user searches for. The default location will be the current location of the user. Weather data provided by Wunderland API and search functionality utlizied with Prefix Trie we created and published as an NPM module which can be found <a className='wetherly-link' href='https://www.npmjs.com/package/@lkshamus/completeme'>here</a></h3>
+                                <h3 className='mt-description'>Weathrly is a web application that allows users to display the current weather in the location the user searches for. The default location will be the current location of the user. Weather data provided by Wunderland API and search functionality utlizied with Prefix Trie to provide lightning fast recommendations we created and published as an NPM module which can be found <a className='wetherly-link' href='https://www.npmjs.com/package/@lkshamus/completeme'>here</a></h3>
                                 <h2 className='tech-used-title'>TECHNOLOGIES:</h2>
                                 <div className='tech-holder'>
                                     <a className='tech-links' href='https://reactjs.org/'>React</a>

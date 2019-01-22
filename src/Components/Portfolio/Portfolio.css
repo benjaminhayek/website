@@ -105,3 +105,21 @@ hr {
     padding: 10px 25px;
     width: 40%;
 }
+
+.weather-home {
+    height: 350px;
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+.weather-autofill {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.weather-tenday {
+    height: 200px;
+    width: 450px;
+    margin-bottom: 30px;
+}
