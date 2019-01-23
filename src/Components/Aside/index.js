@@ -39,13 +39,19 @@ class aside extends Component {
                         >PORTFOLIO <i className="fas fa-chevron-right"></i>
                     </NavLink>
                     <button className='skills info-links'>SKILLS <i className="fas fa-chevron-right"></i></button>
-                    <button className='contact info-links'>CONTACT ME <i className="fas fa-chevron-right"></i></button>
                     <NavLink
                         onClick={() => this.handleSubmit('resumeSelected')}
                         style={{ textDecoration: 'none' }}
                         to="/resume"
                         className={ this.state.selected === 'resumeSelected' ? 'resumeSelected' : 'resume-btn info-links' }
                         >RESUME <i className="fas fa-chevron-right"></i>
+                    </NavLink>
+                    <NavLink
+                        onClick={() => this.handleSubmit('contactSelected')}
+                        style={{ textDecoration: 'none' }}
+                        to="/contact"
+                        className={ this.state.selected === 'contactSelected' ? 'contactSelected' : 'contact-btn info-links' }
+                        >CONTACT ME <i className="fas fa-chevron-right"></i>
                     </NavLink>
                 </div>
                 <div className='social'>
