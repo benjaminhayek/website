@@ -16,6 +16,9 @@ class App extends Component {
           <Route exact path='/portfolio' render={() => {
               return <Portfolio />
             }} />
+          <Route exact path='/skills' render={() => {
+              return <Skills />
+            }} />
           <Route exact path='/about' render={() => {
               return <About />
             }} />
