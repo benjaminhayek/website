@@ -11,9 +11,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
     flex-direction: column;
     align-content: space-between;
+    padding-top: 25px;
 }
 
 .profile-pic {
@@ -22,9 +22,18 @@
     border-radius: 50%;
 }
 
+.name {
+    font-size: 1.75em;
+}
+
+.title {
+    font-size: 1.25em;
+    opacity: .5;
+}
+
 .name, .title {
     color: white;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .links {
@@ -32,7 +41,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 70px;
+    padding-top: 50px;
 }
 
 .info-links {
@@ -59,7 +68,7 @@
     align-items: flex-end;
     align-content: space-around;
     flex-direction: row;
-    margin-top: 110px;
+    padding-top: 80px;
 }
 
 .social-btn {
@@ -77,7 +86,7 @@
 
 .linked-in {
     margin-left: 5px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .github {
