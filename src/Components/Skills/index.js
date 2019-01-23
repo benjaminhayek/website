@@ -25,15 +25,15 @@ const Skills = () => {
                     <div className='skill-holder'>
                         <div className='skill-pics'>
                             <img className='skill-img' src={HTML} alt='sk' />
-                            HTML5
+                            <h4 className='skill-name'>HTML5</h4>
                         </div>
                         <div className='skill-pics'>
                             <img className='skill-img' src={ReactImg} alt='sk' />
-                            JSX
+                            <h4 className='skill-name'>JSX</h4>
                         </div>
                         <div className='skill-pics'>
                             <img className='skill-img' src={Access} alt='sk' />
-                            Accessability
+                            <h4 className='skill-name'>Accessability</h4>
                         </div>
                     </div>
                 </div>
@@ -42,15 +42,15 @@ const Skills = () => {
                     <div className='skill-holder'>
                         <div className='skill-pics'>
                             <img className='skill-img' src={CSS} alt='sk' />
-                            CSS3
+                            <h4 className='skill-name'>CSS3</h4>
                         </div>
                         <div className='skill-pics'>
                             <img className='skill-img' src={SASS} alt='sk' />
-                            SASS
+                            <h4 className='skill-name'>SASS</h4>
                         </div>
                         <div className='skill-pics'>
                             <img className='skill-img' src={Bootstrap} alt='sk' />
-                            Bootstrap
+                            <h4 className='skill-name'>Bootstrap</h4>
                         </div>
                     </div>
                 </div>
@@ -59,19 +59,19 @@ const Skills = () => {
                     <div className='skill-holder'>
                         <div className='skill-pics'>
                             <img className='skill-img' src={JS} alt='sk' />
-                            Javascript
+                            <h4 className='skill-name'>Javascript</h4>
                         </div>
                         <div className='skill-pics'>
                             <img className='skill-img' src={ReactImg} alt='sk' />
-                            React
+                            <h4 className='skill-name'>React</h4>
                         </div>
                         <div className='skill-pics'>
                             <img className='skill-img' src={JQuery} alt='sk' />
-                            JQuery
+                            <h4 className='skill-name'>JQuery</h4>
                         </div>
                         <div className='skill-pics'>
                             <img className='skill-img' src={NodeJS} alt='sk' />
-                            NodeJS
+                            <h4 className='skill-name'>NodeJS</h4>
                         </div>
                     </div>
                 </div>
@@ -80,11 +80,11 @@ const Skills = () => {
                     <div className='skill-holder'>
                         <div className='skill-pics'>
                             <img className='skill-img' src={Enzyme} alt='sk' />
-                            Enzyme
+                            <h4 className='skill-name'>Enzyme</h4>
                         </div>
                         <div className='skill-pics'>
                             <img className='skill-img' src={Jest} alt='sk' />
-                            Jest
+                            <h4 className='skill-name'>Jest</h4>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ const Skills = () => {
                     <div className='skill-holder'>
                         <div className='skill-pics'>
                             <img className='skill-img' src={Postgres} alt='sk' />
-                            PostgreSQL
+                            <h4 className='skill-name'>PostgreSQL</h4>
                         </div>
                     </div>
                 </div>
@@ -102,11 +102,11 @@ const Skills = () => {
                     <div className='skill-holder'>
                         <div className='skill-pics'>
                             <img className='skill-img' src={Github} alt='sk' />
-                            GitHub
+                            <h4 className='skill-name'>GitHub</h4>
                         </div>
                         <div className='skill-pics'>
                             <img className='skill-img' src={Heroku} alt='sk' />
-                            Heroku
+                            <h4 className='skill-name'>Heroku</h4>
                         </div>
                     </div>
                 </div>
