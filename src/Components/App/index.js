@@ -4,6 +4,7 @@ import About from '../About';
 import Aside from '../Aside';
 import Portfolio from '../Portfolio';
 import Resume from '../Resume';
+import Contact from '../Contact';
 import './App.css';
 
 class App extends Component {
@@ -20,6 +21,9 @@ class App extends Component {
             }} />
           <Route exact path='/resume' render={() => {
               return <Resume />
+            }} />
+          <Route exact path='/contact' render={() => {
+              return <Contact />
             }} />
         </Switch>
       </div>
