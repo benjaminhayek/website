@@ -5,6 +5,7 @@ import Aside from '../Aside';
 import Portfolio from '../Portfolio';
 import Resume from '../Resume';
 import Contact from '../Contact';
+import Skills from '../Skills';
 import './App.css';
 
 class App extends Component {
@@ -13,11 +14,14 @@ class App extends Component {
       <div className="App">
         <Aside/>
         <Switch>
+          <Route exact path='/' render={() => {
+              return <About />
+            }} />
           <Route exact path='/portfolio' render={() => {
               return <Portfolio />
             }} />
-          <Route exact path='/about' render={() => {
-              return <About />
+          <Route exact path='/skills' render={() => {
+              return <Skills />
             }} />
           <Route exact path='/resume' render={() => {
               return <Resume />

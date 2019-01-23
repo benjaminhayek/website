@@ -85,7 +85,7 @@
     margin-bottom: 10px;
 }
 
-.aboutSelected, .portfolioSelected, .resumeSelected, .contactSelected {
+.aboutSelected, .portfolioSelected, .resumeSelected, .contactSelected, .skillsSelected {
     color: white;
     cursor: pointer;
     transition: all .2s ease-in-out;
