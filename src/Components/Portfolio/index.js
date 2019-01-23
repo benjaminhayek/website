@@ -84,6 +84,33 @@ class Portfolio extends Component {
                 </div>
                 <hr/>
                 <div className='world-of-flags'>
+                    <h1 className='mt-title'>Swapi-Box</h1>
+                    <div className='mt-info'>
+                        <div className='mt-left'>
+                                <h2 className='description-title'>DESCRIPTION:</h2>
+                                <h3 className='mt-description'>Search your favorite Star Wars lore with the click of a button! This application query's the Star Wars API using asynchronous fetch calls in order to create cards with info on people, planets,and vehicles. The user can favorite cards which are stored in the favorites component to view upon later use. Local storage is taken advantage of to minimize calls to the API and increase loading time.</h3>
+                                <h2 className='tech-used-title'>TECHNOLOGIES:</h2>
+                                <div className='tech-holder'>
+                                    <a className='tech-links' href='https://reactjs.org/'>React</a>
+                                    <a className='tech-links' href='https://reacttraining.com/react-router/'>React-Router</a>
+                                    <a className='tech-links' href='https://airbnb.io/enzyme/'>Enzyme</a>
+                                    <a className='tech-links' href='https://jestjs.io/'>Jest</a>
+                                </div>
+                                <h2 className='deployed-links'>LINKS:</h2>
+                                <div className='deployed-container'>
+                                    <a href='https://bh-swapi-box.herokuapp.com/' className='heroku'>Link to Deployed App</a>
+                                    <a href='https://github.com/benjaminhayek/swapi-box' className='heroku'>Link to GitHub</a>
+                                </div>
+                            </div>
+                            <div className='mt-right'>
+                                <img className='sw-home' src={SWHome} />
+                                <img className='sw-people' src={SWPeople} />
+                                <img className='sw-favorites' src={SWFavorites} />
+                            </div>
+                        </div>
+                </div>
+                <hr/>
+                <div className='world-of-flags'>
                     <h1 className='mt-title'>Educate Yourself on Education!</h1>
                     <div className='mt-info'>
                         <div className='mt-left'>
@@ -105,32 +132,6 @@ class Portfolio extends Component {
                             <div className='mt-right'>
                                 <img className='eyoe-home' src={EYOEHome} />
                                 <img className='eyoe-compare' src={EYOECompare} />
-                            </div>
-                        </div>
-                </div>
-                <hr/>
-                <div className='world-of-flags'>
-                    <h1 className='mt-title'>Swapi-Box</h1>
-                    <div className='mt-info'>
-                        <div className='mt-left'>
-                                <h2 className='description-title'>DESCRIPTION:</h2>
-                                <h3 className='mt-description'>Search your favorite Star Wars lore with the click of a button! This application query's the Star Wars API using asynchronous fetch calls in order to create cards with info on people, planets,and vehicles. The user can favorite cards which are stored in the favorites component to view upon later use. Local storage is taken advantage of to minimize calls to the API and increase loading time.</h3>
-                                <h2 className='tech-used-title'>TECHNOLOGIES:</h2>
-                                <div className='tech-holder'>
-                                    <a className='tech-links' href='https://reactjs.org/'>React</a>
-                                    <a className='tech-links' href='https://reacttraining.com/react-router/'>React-Router</a>
-                                    <a className='tech-links' href='https://airbnb.io/enzyme/'>Enzyme</a>
-                                    <a className='tech-links' href='https://jestjs.io/'>Jest</a>
-                                </div>
-                                <h2 className='deployed-links'>LINKS:</h2>
-                                <div className='deployed-container'>
-                                    <a href='https://github.com/benjaminhayek/swapi-box' className='heroku'>Link to GitHub</a>
-                                </div>
-                            </div>
-                            <div className='mt-right'>
-                                <img className='sw-home' src={SWHome} />
-                                <img className='sw-people' src={SWPeople} />
-                                <img className='sw-favorites' src={SWFavorites} />
                             </div>
                         </div>
                 </div>
