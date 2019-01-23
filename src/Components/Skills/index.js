@@ -11,6 +11,8 @@ import NodeJS from '../utils/nodejs.png';
 import Postgres from '../utils/postgresql.png';
 import Github from '../utils/github.png';
 import Heroku from '../utils/heroku.png';
+import Jest from '../utils/jest.png';
+import Enzyme from '../utils/enzyme.png';
 import './Skills.css';
 
 const Skills = () => {
@@ -32,6 +34,79 @@ const Skills = () => {
                         <div className='skill-pics'>
                             <img className='skill-img' src={Access} alt='sk' />
                             Accessability
+                        </div>
+                    </div>
+                </div>
+                <div className='skills-content'>
+                    <h2 className='skill'>CSS</h2>
+                    <div className='skill-holder'>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={CSS} alt='sk' />
+                            CSS3
+                        </div>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={SASS} alt='sk' />
+                            SASS
+                        </div>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={Bootstrap} alt='sk' />
+                            Bootstrap
+                        </div>
+                    </div>
+                </div>
+                <div className='skills-content'>
+                    <h2 className='skill'>FRONT-END</h2>
+                    <div className='skill-holder'>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={JS} alt='sk' />
+                            Javascript
+                        </div>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={ReactImg} alt='sk' />
+                            React
+                        </div>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={JQuery} alt='sk' />
+                            JQuery
+                        </div>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={NodeJS} alt='sk' />
+                            NodeJS
+                        </div>
+                    </div>
+                </div>
+                <div className='skills-content'>
+                    <h2 className='skill'>TESTING</h2>
+                    <div className='skill-holder'>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={Enzyme} alt='sk' />
+                            Enzyme
+                        </div>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={Jest} alt='sk' />
+                            Jest
+                        </div>
+                    </div>
+                </div>
+                <div className='skills-content'>
+                    <h2 className='skill'>BACK-END</h2>
+                    <div className='skill-holder'>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={Postgres} alt='sk' />
+                            PostgreSQL
+                        </div>
+                    </div>
+                </div>
+                <div className='skills-content'>
+                    <h2 className='skill'>OTHER</h2>
+                    <div className='skill-holder'>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={Github} alt='sk' />
+                            GitHub
+                        </div>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={Heroku} alt='sk' />
+                            Heroku
                         </div>
                     </div>
                 </div>
