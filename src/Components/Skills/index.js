@@ -21,7 +21,18 @@ const Skills = () => {
                 <div className='skills-content'>
                     <h2 className='skill'>HTML</h2>
                     <div className='skill-holder'>
-
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={HTML} alt='sk' />
+                            HTML5
+                        </div>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={ReactImg} alt='sk' />
+                            JSX
+                        </div>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={Access} alt='sk' />
+                            Accessability
+                        </div>
                     </div>
                 </div>
             </div>
