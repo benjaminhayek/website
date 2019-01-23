@@ -5,6 +5,7 @@ import Aside from '../Aside';
 import Portfolio from '../Portfolio';
 import Resume from '../Resume';
 import Contact from '../Contact';
+import Skills from '../Skills';
 import './App.css';
 
 class App extends Component {
