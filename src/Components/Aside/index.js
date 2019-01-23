@@ -11,6 +11,10 @@ class aside extends Component {
         }
     }
 
+    componentDidMount() {
+        this.setState({ selected: 'aboutSelected' })
+    }
+
     handleSubmit = async (name) => {
         this.setState({ selected: name });
       }
@@ -27,7 +31,7 @@ class aside extends Component {
                     <NavLink
                         onClick={() => this.handleSubmit('aboutSelected')}
                         style={{ textDecoration: 'none' }}
-                        to="/about"
+                        to="/"
                         className={ this.state.selected === 'aboutSelected' ? 'aboutSelected' : 'about-btn info-links' }
                         >ABOUT <i className="fas fa-chevron-right"></i>
                     </NavLink>

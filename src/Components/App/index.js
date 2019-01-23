@@ -14,14 +14,14 @@ class App extends Component {
       <div className="App">
         <Aside/>
         <Switch>
+          <Route exact path='/' render={() => {
+              return <About />
+            }} />
           <Route exact path='/portfolio' render={() => {
               return <Portfolio />
             }} />
           <Route exact path='/skills' render={() => {
               return <Skills />
-            }} />
-          <Route exact path='/about' render={() => {
-              return <About />
             }} />
           <Route exact path='/resume' render={() => {
               return <Resume />
