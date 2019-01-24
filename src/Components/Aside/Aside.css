@@ -102,3 +102,115 @@
     margin-top: 20px;
     margin-left: 130px;
 }
+
+@media screen and (max-width: 1100px) {
+    .aside {
+        background: rgba(67, 87, 84, 0.45);
+        height: 15em;
+        display: grid;
+        grid-template-columns: 1fr 2.5fr .5fr
+    }
+
+    .pic-holder {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: .65em;
+    }
+
+    .profile-pic {
+        height: 100px;
+        width: 100px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    .info-links {
+        font-size: .75em;
+        opacity: 0.5;
+        margin-left: 25px;
+        margin-top: 0px;
+        transition: all .2s ease-in-out;
+    }
+
+    .social {
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .aboutSelected, .portfolioSelected, .resumeSelected, .contactSelected, .skillsSelected {
+        color: white;
+        cursor: pointer;
+        font-size: .75em;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+    .linked-in {
+        margin-right: 15px;
+        padding-bottom: 10px;
+    }
+
+    .github {
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .aside {
+        background: rgba(67, 87, 84, 0.45);
+        height: 15em;
+        display: grid;
+        grid-template-columns: .5fr 1fr .5fr
+    }
+
+    .name {
+        font-size: 1em;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    .info-links {
+        font-size: .75em;
+        opacity: 0.5;
+        margin-left: 0px;
+        margin-top: 0px;
+        transition: all .2s ease-in-out;
+    }
+
+    .aboutSelected, .portfolioSelected, .resumeSelected, .contactSelected, .skillsSelected {
+        font-size: .75em;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aside {
+        grid-template-columns: 1fr 1fr .5fr
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aside {
+        height: 12em;
+    }
+}

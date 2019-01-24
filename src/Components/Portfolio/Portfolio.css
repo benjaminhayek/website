@@ -12,7 +12,7 @@ hr {
 .title-holder, .movie-tracker, .world-of-flags {
     margin-left: 30px;
     margin-top: 30px;
-    width: 90%;
+    width: 95%;
 }
 
 .description {
@@ -50,6 +50,12 @@ hr {
     grid-template-columns: 1fr 1fr;
 }
 
+.mt-right {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .tech-holder, .deployed-container {
     display: flex;
     justify-content: space-around;
@@ -69,32 +75,8 @@ hr {
     width: 100px;
 }
 
-.mt-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.mt-home, .mt-login {
-    height: 350px;
-    width: 500px;
-    margin-bottom: 15px;
-}
-
 .mt-login {
     margin-bottom: 30px;
-}
-
-.wof-home, .wof-login {
-    height: 400px;
-    width: 400px;
-}
-
-.eyoe-home, .eyoe-compare {
-    height: 350px;
-    width: 500px;
-    margin-bottom: 15px;
 }
 
 .deployed-container {
@@ -106,26 +88,30 @@ hr {
     width: 40%;
 }
 
-.weather-home {
-    height: 350px;
-    width: 500px;
+.mt-home, .mt-login, .wof-home, .wof-login, .eyoe-home, .eyoe-compare, .weather-home, .weather-autofill, .weather-tenday, .sw-home, .sw-people, .sw-favorites {
+    width: 100%;
+    height: auto;
     margin-bottom: 15px;
 }
 
-.weather-autofill {
-    height: 200px;
-    width: 200px;
-    margin-bottom: 15px;
-}
+@media screen and (max-width: 910px) {
+    .mt-home, .mt-login, .wof-home, .wof-login, .eyoe-home, .eyoe-compare, .weather-home, .weather-autofill, .weather-tenday, .sw-home, .sw-people, .sw-favorites {
+        width: 100%;
+        height: auto;
+    }
 
-.weather-tenday {
-    height: 200px;
-    width: 450px;
-    margin-bottom: 30px;
-}
+    .mt-info {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
-.sw-home, .sw-people, .sw-favorites {
-    height: 350px;
-    width: 500px;
-    margin-bottom: 15px;
+    .title-holder, .movie-tracker, .world-of-flags {
+        margin-left: 5px;
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    .deployed-container {
+        margin-bottom: 15px;
+    }
 }
