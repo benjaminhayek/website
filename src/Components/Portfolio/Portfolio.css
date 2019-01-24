@@ -106,8 +106,8 @@ hr {
     }
 
     .title-holder, .movie-tracker, .world-of-flags {
-        margin-left: 0px;
-        margin-top: 0px;
+        margin-left: 5px;
+        margin-top: 5px;
         width: 100%;
     }
 
