@@ -124,11 +124,16 @@ hr {
     }
 
     .kevin {
-        display: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .about-left {
+        width: 90%;
     }
 
     .about-me {
-        margin-left: 5px;
+        margin-left: 20px;
         margin-bottom: 25px;
         padding-left: 10px;
         padding-right: 20px;
