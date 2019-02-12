@@ -3,7 +3,7 @@ import './ErrorPage.css'
 
 const ErrorPage = () => {
     return(
-        <div>
+        <div className='error'>
             <h1 className='error-title'>Sorry that is not a valid address :(</h1>
         </div>
     )
