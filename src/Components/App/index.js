@@ -6,6 +6,7 @@ import Portfolio from '../Portfolio';
 import Resume from '../Resume';
 import Contact from '../Contact';
 import Skills from '../Skills';
+import ErrorPage from '../ErrorPage';
 import './App.css';
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
           <Route exact path='/contact' render={() => {
               return <Contact />
             }} />
+          <Route path='*' exact={true} component={ErrorPage} />
         </Switch>
       </div>
     );
