@@ -11,6 +11,14 @@ import TenDay from '../utils/ten-day.png';
 import SWHome from '../utils/SWHome.png';
 import SWPeople from '../utils/SWPeople.png';
 import SWFavorites from '../utils/SWFavorite.png';
+import oldMain from '../utils/oldMain.jpg';
+import oldApply from '../utils/oldApply.jpg';
+import newHome from '../utils/Home.jpg';
+import newApply from '../utils/Appl.jpg;';
+import aboutWire from '../utils/About.jpg';
+import homeWire from '../utils/Homepage.jpg';
+import applyWire from '../utils/Apply.jpg';
+import newAbt from '../utils/Abt.jpg';
 import './Portfolio.css';
 
 class Portfolio extends Component {
