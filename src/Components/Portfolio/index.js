@@ -41,7 +41,7 @@ class Portfolio extends Component {
                             </div>
                             <h2 className='deployed-links'>LINKS:</h2>
                             <div className='deployed-container'>
-                                <a href='' className='heroku'>Wesite Coming Soon!</a>
+                                <a href='' className='heroku'>Website Coming Soon!</a>
                             </div>
                         </div>
                         <div className='mt-right'>
