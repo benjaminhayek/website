@@ -12,9 +12,9 @@ import SWHome from '../utils/SWHome.png';
 import SWPeople from '../utils/SWPeople.png';
 import SWFavorites from '../utils/SWFavorite.png';
 import oldMain from '../utils/oldMain.jpg';
-import oldApply from '../utils/oldApply.jpg';
+import oldApply from '../utils/OldApply.jpg';
 import newHome from '../utils/Home.jpg';
-import newApply from '../utils/Appl.jpg;';
+import newApply from '../utils/Appl.jpg';
 import aboutWire from '../utils/About.jpg';
 import homeWire from '../utils/Homepage.jpg';
 import applyWire from '../utils/Apply.jpg';
@@ -51,10 +51,18 @@ class Portfolio extends Component {
                             <div className='deployed-container'>
                                 <a href='' className='heroku'>Website Coming Soon!</a>
                             </div>
+                            <div>
+                            <img className='mt-login mt-old' src={oldMain} />
+                            <img className='mt-login mt-old' src={oldApply} />
+                            </div>
                         </div>
                         <div className='mt-right'>
-                            <img className='mt-home' src={MTMain} />
-                            <img className='mt-login' src={MTLogin} />
+                            <img className='mt-home' src={homeWire} />
+                            <img className='mt-login' src={aboutWire} />
+                            <img className='mt-login' src={applyWire} />
+                            <img className='mt-login' src={newHome} />
+                            <img className='mt-login' src={newApply} />
+                            <img className='mt-login' src={newAbt} />
                         </div>
                     </div>
                 </div>
