@@ -11,6 +11,14 @@ import TenDay from '../utils/ten-day.png';
 import SWHome from '../utils/SWHome.png';
 import SWPeople from '../utils/SWPeople.png';
 import SWFavorites from '../utils/SWFavorite.png';
+import oldMain from '../utils/oldMain.jpg';
+import oldApply from '../utils/OldApply.jpg';
+import newHome from '../utils/Home.jpg';
+import newApply from '../utils/Appl.jpg';
+import aboutWire from '../utils/About.jpg';
+import homeWire from '../utils/Homepage.jpg';
+import applyWire from '../utils/Apply.jpg';
+import newAbt from '../utils/Abt.jpg';
 import './Portfolio.css';
 
 class Portfolio extends Component {
@@ -23,6 +31,41 @@ class Portfolio extends Component {
                 <div className='title-holder'>
                     <h1 className='portfolio-title'>PORTFOLIO</h1>
                     <h2 className='description'>- See my projects below. All projects were done by me or in partnership with my fellow classmates.</h2>
+                </div>
+                <hr/>
+                <div className='movie-tracker'>
+                    <h1 className='mt-title'>Client Website</h1>
+                    <div className='mt-info'>
+                        <div className='mt-left'>
+                            <h2 className='description-title'>DESCRIPTION:</h2>
+                            <h3 className='mt-description'>I was hired by a client to design and launch a website for a pool management company located in Parker, CO. When i was showed the clients previous site it was riddled with broken links and outdated styling. After speaking with the client i designed wireframes and began work, adding one-click applications and secure online payment through Stripe.js In addition the website is fully responsive and much more appeasing to the eye. Having full control of the design and outline has allowed me to have a lot of flexibility while designing the site.</h3>
+                            <h2 className='tech-used-title'>TECHNOLOGIES:</h2>
+                            <div className='tech-holder'>
+                                <a className='tech-links' href='https://reactjs.org/'>React</a>
+                                <a className='tech-links' href='https://stripe.com/'>Stripe.js</a>
+                                <a className='tech-links' href='https://reacttraining.com/react-router/'>React-Router</a>
+                                <a className='tech-links' href='https://airbnb.io/enzyme/'>Enzyme</a>
+                                <a className='tech-links' href='https://jestjs.io/'>Jest</a>
+                            </div>
+                            <h2 className='deployed-links'>LINKS:</h2>
+                            <div className='deployed-container'>
+                                <a href='' className='heroku'>Website Coming Soon!</a>
+                            </div>
+                        </div>
+                        <div className='mt-right'>
+                            <h2 className='tech-used-title tu-title'>WIREFRAMES:</h2>
+                            <img className='mt-home' src={homeWire} />
+                            <img className='mt-login' src={aboutWire} />
+                            <img className='mt-login' src={applyWire} />
+                            <h2 className='tech-used-title tu-title'>OLD SITE:</h2>
+                            <img className='mt-login mt-old' src={oldMain} />
+                            <img className='mt-login mt-old' src={oldApply} />
+                            <h2 className='tech-used-title tu-title'>NEW SITE:</h2>
+                            <img className='mt-login' src={newHome} />
+                            <img className='mt-login' src={newApply} />
+                            <img className='mt-login' src={newAbt} />
+                        </div>
+                    </div>
                 </div>
                 <hr/>
                 <div className='movie-tracker'>

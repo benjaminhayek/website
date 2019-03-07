@@ -56,6 +56,10 @@ hr {
     flex-direction: column;
 }
 
+.tu-title {
+    margin-bottom: 25px;
+}
+
 .tech-holder, .deployed-container {
     display: flex;
     justify-content: space-around;
