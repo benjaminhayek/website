@@ -26,6 +26,32 @@ class Portfolio extends Component {
                 </div>
                 <hr/>
                 <div className='movie-tracker'>
+                    <h1 className='mt-title'>Client Website</h1>
+                    <div className='mt-info'>
+                        <div className='mt-left'>
+                            <h2 className='description-title'>DESCRIPTION:</h2>
+                            <h3 className='mt-description'>I was hired by a client to design and launch a website for a pool management company located in Parker, CO. When i was showed the clients previous site it was riddled with broken links and outdated styling. After speaking with the client i designed wireframes and began work, adding one-click applications and secure online payment through Stripe.js In addition the website is fully responsive and much more appeasing to the eye. Having full control of the design and outline has allowed me to have a lot of flexibility while designing the site.</h3>
+                            <h2 className='tech-used-title'>TECHNOLOGIES:</h2>
+                            <div className='tech-holder'>
+                                <a className='tech-links' href='https://reactjs.org/'>React</a>
+                                <a className='tech-links' href='https://stripe.com/'>Stripe.js</a>
+                                <a className='tech-links' href='https://reacttraining.com/react-router/'>React-Router</a>
+                                <a className='tech-links' href='https://airbnb.io/enzyme/'>Enzyme</a>
+                                <a className='tech-links' href='https://jestjs.io/'>Jest</a>
+                            </div>
+                            <h2 className='deployed-links'>LINKS:</h2>
+                            <div className='deployed-container'>
+                                <a href='' className='heroku'>Wesite Coming Soon!</a>
+                            </div>
+                        </div>
+                        <div className='mt-right'>
+                            <img className='mt-home' src={MTMain} />
+                            <img className='mt-login' src={MTLogin} />
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div className='movie-tracker'>
                     <h1 className='mt-title'>Movie Tracker</h1>
                     <div className='mt-info'>
                         <div className='mt-left'>
