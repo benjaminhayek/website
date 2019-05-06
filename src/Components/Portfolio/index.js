@@ -45,14 +45,13 @@ class Portfolio extends Component {
                             <h2 className='tech-used-title'>TECHNOLOGIES:</h2>
                             <div className='tech-holder'>
                                 <a className='tech-links' href='https://reactjs.org/'>React</a>
-                                <a className='tech-links' href='https://stripe.com/'>Stripe.js</a>
-                                <a className='tech-links' href='https://reacttraining.com/react-router/'>React-Router</a>
-                                <a className='tech-links' href='https://airbnb.io/enzyme/'>Enzyme</a>
-                                <a className='tech-links' href='https://jestjs.io/'>Jest</a>
+                                <a className='tech-links' href='https://pusher.com/docs/channels/getting_started/javascript'>Pusher.js</a>
+                                <a className='tech-links' href='https://www.axios.com/'>Axios</a>
+                                <a className='tech-links' href='https://expressjs.com/'>Express.js</a>
                             </div>
                             <h2 className='deployed-links'>LINKS:</h2>
                             <div className='deployed-container'>
-                                <a href='' className='heroku'>Website Coming Soon!</a>
+                                <a href='https://github.com/benjaminhayek/Crypto-PWA' className='heroku'>Link to GitHub</a>
                             </div>
                         </div>
                         <div className='mt-right'>
