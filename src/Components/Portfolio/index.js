@@ -19,6 +19,9 @@ import aboutWire from '../utils/About.jpg';
 import homeWire from '../utils/Homepage.jpg';
 import applyWire from '../utils/Apply.jpg';
 import newAbt from '../utils/Abt.jpg';
+import cryptoHome from '../utils/home.png';
+import cryptoHistory from '../utils/Yesterday.png';
+import lighthouse from '../utils/lighthouse2.png';
 import './Portfolio.css';
 
 class Portfolio extends Component {
