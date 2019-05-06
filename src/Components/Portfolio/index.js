@@ -37,6 +37,41 @@ class Portfolio extends Component {
                 </div>
                 <hr/>
                 <div className='movie-tracker'>
+                    <h1 className='mt-title'>PusherCoins</h1>
+                    <div className='mt-info'>
+                        <div className='mt-left'>
+                            <h2 className='description-title'>DESCRIPTION:</h2>
+                            <h3 className='mt-description'>For this application I wanted to explore creating a Progressive Web App. I decided to create a Crypto-Currency price checker in order to </h3>
+                            <h2 className='tech-used-title'>TECHNOLOGIES:</h2>
+                            <div className='tech-holder'>
+                                <a className='tech-links' href='https://reactjs.org/'>React</a>
+                                <a className='tech-links' href='https://stripe.com/'>Stripe.js</a>
+                                <a className='tech-links' href='https://reacttraining.com/react-router/'>React-Router</a>
+                                <a className='tech-links' href='https://airbnb.io/enzyme/'>Enzyme</a>
+                                <a className='tech-links' href='https://jestjs.io/'>Jest</a>
+                            </div>
+                            <h2 className='deployed-links'>LINKS:</h2>
+                            <div className='deployed-container'>
+                                <a href='' className='heroku'>Website Coming Soon!</a>
+                            </div>
+                        </div>
+                        <div className='mt-right'>
+                            <h2 className='tech-used-title tu-title'>WIREFRAMES:</h2>
+                            <img className='mt-home' src={homeWire} />
+                            <img className='mt-login' src={aboutWire} />
+                            <img className='mt-login' src={applyWire} />
+                            <h2 className='tech-used-title tu-title'>OLD SITE:</h2>
+                            <img className='mt-login mt-old' src={oldMain} />
+                            <img className='mt-login mt-old' src={oldApply} />
+                            <h2 className='tech-used-title tu-title'>NEW SITE:</h2>
+                            <img className='mt-login' src={newHome} />
+                            <img className='mt-login' src={newApply} />
+                            <img className='mt-login' src={newAbt} />
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div className='movie-tracker'>
                     <h1 className='mt-title'>Client Website</h1>
                     <div className='mt-info'>
                         <div className='mt-left'>
@@ -52,7 +87,7 @@ class Portfolio extends Component {
                             </div>
                             <h2 className='deployed-links'>LINKS:</h2>
                             <div className='deployed-container'>
-                                <a href='' className='heroku'>Website Coming Soon!</a>
+                                <a href='https://doherty-pool-management.herokuapp.com/' className='heroku'>Doherty Pool Management</a>
                             </div>
                         </div>
                         <div className='mt-right'>
