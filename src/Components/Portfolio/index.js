@@ -55,17 +55,10 @@ class Portfolio extends Component {
                             </div>
                         </div>
                         <div className='mt-right'>
-                            <h2 className='tech-used-title tu-title'>WIREFRAMES:</h2>
-                            <img className='mt-home' src={homeWire} />
-                            <img className='mt-login' src={aboutWire} />
-                            <img className='mt-login' src={applyWire} />
-                            <h2 className='tech-used-title tu-title'>OLD SITE:</h2>
-                            <img className='mt-login mt-old' src={oldMain} />
-                            <img className='mt-login mt-old' src={oldApply} />
-                            <h2 className='tech-used-title tu-title'>NEW SITE:</h2>
-                            <img className='mt-login' src={newHome} />
-                            <img className='mt-login' src={newApply} />
-                            <img className='mt-login' src={newAbt} />
+                            <h2 className='tech-used-title tu-title'>Screenshots:</h2>
+                            <img className='mt-login' src={cryptoHome} />
+                            <img className='mt-login' src={cryptoHistory} />
+                            <img className='mt-login' src={lighthouse} />
                         </div>
                     </div>
                 </div>
