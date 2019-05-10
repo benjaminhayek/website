@@ -184,6 +184,31 @@ class Portfolio extends Component {
                         </div>
                 </div>
                 <hr/>
+                <hr/>
+                <div className='movie-tracker'>
+                    <h1 className='mt-title'>Nasa Vues</h1>
+                    <div className='mt-info'>
+                        <div className='mt-left'>
+                            <h2 className='description-title'>DESCRIPTION:</h2>
+                            <h3 className='mt-description'>Nasa Vues is an app built in Vue.js that query's the Nasa API to get the picture of the day, pictures from the mars rover, and all pictures from the current month.</h3>
+                            <h2 className='tech-used-title'>TECHNOLOGIES:</h2>
+                            <div className='tech-holder'>
+                                <a className='tech-links' href='https://vuejs.org/'>Vue.js</a>
+                                <a className='tech-links' href='https://jestjs.io/'>Jest</a>
+                            </div>
+                            <h2 className='deployed-links'>LINKS:</h2>
+                            <div className='deployed-container'>
+                                <a href='https://github.com/benjaminhayek/vues-from-nasa' className='heroku'>Link to GitHub</a>
+                            </div>
+                        </div>
+                        <div className='mt-right'>
+                            <h2 className='tech-used-title tu-title'>Screenshots:</h2>
+                            <img className='mt-login' src={cryptoHome} />
+                            <img className='mt-login' src={cryptoHistory} />
+                            <img className='mt-login' src={lighthouse} />
+                        </div>
+                    </div>
+                </div>
                 <div className='world-of-flags'>
                     <h1 className='mt-title'>Educate Yourself on Education!</h1>
                     <div className='mt-info'>
