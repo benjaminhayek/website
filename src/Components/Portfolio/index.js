@@ -190,7 +190,7 @@ class Portfolio extends Component {
                     <div className='mt-info'>
                         <div className='mt-left'>
                             <h2 className='description-title'>DESCRIPTION:</h2>
-                            <h3 className='mt-description'>Nasa Vues is an app built in Vue.js that query's the Nasa API to get the picture of the day, pictures from the mars rover, and all pictures from the current month.</h3>
+                            <h3 className='mt-description'>Nasa Vues is an app built in Vue.js that query's the Nasa API to display the picture of the day, pictures from the mars rover, and all pictures from the current month.</h3>
                             <h2 className='tech-used-title'>TECHNOLOGIES:</h2>
                             <div className='tech-holder'>
                                 <a className='tech-links' href='https://vuejs.org/'>Vue.js</a>
