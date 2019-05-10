@@ -12,7 +12,7 @@ const About = () => {
                     <blockquote>
                         <h2>Mission-driven front-end developer with a passion for thoughtful UI design, collaboration, and learning.</h2>
                     </blockquote>
-                    <p className='about-me'>I’ve always sought out opportunities and challenges that are meaningful to me. Although my professional path has taken a sharp turn from where i was less than a year ago — helping to run and manage a grounds staff at Denver Country Club — I've never stopped engaging my passion to help others and solve problems.</p>
+                    <p className='about-me'>I’ve always sought out opportunities and challenges that are meaningful to me. Although my professional path has taken a sharp turn from where i was over a year ago — helping to run and manage a grounds staff at Denver Country Club — I've never stopped engaging my passion to help others and solve problems.</p>
 
                     <p className='about-me'>As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. That's why I’m excited to make a big impact at a high growth company.</p>
 
