@@ -184,7 +184,6 @@ class Portfolio extends Component {
                         </div>
                 </div>
                 <hr/>
-                <hr/>
                 <div className='movie-tracker'>
                     <h1 className='mt-title'>Nasa Vues</h1>
                     <div className='mt-info'>
@@ -207,6 +206,7 @@ class Portfolio extends Component {
                         </div>
                     </div>
                 </div>
+                <hr/>
                 <div className='world-of-flags'>
                     <h1 className='mt-title'>Educate Yourself on Education!</h1>
                     <div className='mt-info'>
