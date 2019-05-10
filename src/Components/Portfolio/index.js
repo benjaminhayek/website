@@ -22,6 +22,7 @@ import newAbt from '../utils/Abt.jpg';
 import cryptoHome from '../utils/home.png';
 import cryptoHistory from '../utils/Yesterday.png';
 import lighthouse from '../utils/lighthouse2.png';
+import nasaVues from '../utils/nasa-vues.png';
 import './Portfolio.css';
 
 class Portfolio extends Component {
