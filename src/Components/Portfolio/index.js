@@ -38,33 +38,6 @@ class Portfolio extends Component {
                 </div>
                 <hr/>
                 <div className='movie-tracker'>
-                    <h1 className='mt-title'>PusherCoins</h1>
-                    <div className='mt-info'>
-                        <div className='mt-left'>
-                            <h2 className='description-title'>DESCRIPTION:</h2>
-                            <h3 className='mt-description'>For this application I wanted to explore creating a Progressive Web App. I decided to create a Crypto-Currency price checker in order to keep track of movements in cryto prices across the week. This project allows users to check the prices of Bitcoin, Litecoin, and Etherium to better understand the market. The app displays todays prices as well as the prices over the last 5 days. With the installation of a server the app provides the user with an offline experience as well as online and reached a 91% Progressive Web App rating through lighthouse, only missing the checkmark on https certification.</h3>
-                            <h2 className='tech-used-title'>TECHNOLOGIES:</h2>
-                            <div className='tech-holder'>
-                                <a className='tech-links' href='https://reactjs.org/'>React</a>
-                                <a className='tech-links' href='https://pusher.com/docs/channels/getting_started/javascript'>Pusher.js</a>
-                                <a className='tech-links' href='https://www.axios.com/'>Axios</a>
-                                <a className='tech-links' href='https://expressjs.com/'>Express.js</a>
-                            </div>
-                            <h2 className='deployed-links'>LINKS:</h2>
-                            <div className='deployed-container'>
-                                <a href='https://github.com/benjaminhayek/Crypto-PWA' className='heroku'>Link to GitHub</a>
-                            </div>
-                        </div>
-                        <div className='mt-right'>
-                            <h2 className='tech-used-title tu-title'>Screenshots:</h2>
-                            <img className='mt-login' src={cryptoHome} />
-                            <img className='mt-login' src={cryptoHistory} />
-                            <img className='mt-login' src={lighthouse} />
-                        </div>
-                    </div>
-                </div>
-                <hr/>
-                <div className='movie-tracker'>
                     <h1 className='mt-title'>Client Website</h1>
                     <div className='mt-info'>
                         <div className='mt-left'>
@@ -155,6 +128,33 @@ class Portfolio extends Component {
                                 <img className='wof-login' src={WOFLogin} />
                             </div>
                         </div>
+                </div>
+                <hr/>
+                <div className='movie-tracker'>
+                    <h1 className='mt-title'>PusherCoins</h1>
+                    <div className='mt-info'>
+                        <div className='mt-left'>
+                            <h2 className='description-title'>DESCRIPTION:</h2>
+                            <h3 className='mt-description'>For this application I wanted to explore creating a Progressive Web App. I decided to create a Crypto-Currency price checker in order to keep track of movements in cryto prices across the week. This project allows users to check the prices of Bitcoin, Litecoin, and Etherium to better understand the market. The app displays todays prices as well as the prices over the last 5 days. With the installation of a server the app provides the user with an offline experience as well as online and reached a 91% Progressive Web App rating through lighthouse, only missing the checkmark on https certification.</h3>
+                            <h2 className='tech-used-title'>TECHNOLOGIES:</h2>
+                            <div className='tech-holder'>
+                                <a className='tech-links' href='https://reactjs.org/'>React</a>
+                                <a className='tech-links' href='https://pusher.com/docs/channels/getting_started/javascript'>Pusher.js</a>
+                                <a className='tech-links' href='https://www.axios.com/'>Axios</a>
+                                <a className='tech-links' href='https://expressjs.com/'>Express.js</a>
+                            </div>
+                            <h2 className='deployed-links'>LINKS:</h2>
+                            <div className='deployed-container'>
+                                <a href='https://github.com/benjaminhayek/Crypto-PWA' className='heroku'>Link to GitHub</a>
+                            </div>
+                        </div>
+                        <div className='mt-right'>
+                            <h2 className='tech-used-title tu-title'>Screenshots:</h2>
+                            <img className='mt-login' src={cryptoHome} />
+                            <img className='mt-login' src={cryptoHistory} />
+                            <img className='mt-login' src={lighthouse} />
+                        </div>
+                    </div>
                 </div>
                 <hr/>
                 <div className='world-of-flags'>
