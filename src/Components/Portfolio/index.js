@@ -203,9 +203,7 @@ class Portfolio extends Component {
                         </div>
                         <div className='mt-right'>
                             <h2 className='tech-used-title tu-title'>Screenshots:</h2>
-                            <img className='mt-login' src={cryptoHome} />
-                            <img className='mt-login' src={cryptoHistory} />
-                            <img className='mt-login' src={lighthouse} />
+                            <img className='mt-login' src={nasaVues} />
                         </div>
                     </div>
                 </div>
