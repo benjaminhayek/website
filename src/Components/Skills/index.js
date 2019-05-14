@@ -1,7 +1,6 @@
 import React from 'react';
 import HTML from '../utils/html5.png';
 import ReactImg from '../utils/react.png';
-import Access from '../utils/accessability.png';
 import CSS from '../utils/css3.png';
 import SASS from '../utils/sass.png';
 import Bootstrap from '../utils/bootstrap.png';
@@ -30,10 +29,6 @@ const Skills = () => {
                         <div className='skill-pics'>
                             <img className='skill-img' src={ReactImg} alt='sk' />
                             <h4 className='skill-name'>JSX</h4>
-                        </div>
-                        <div className='skill-pics'>
-                            <img className='skill-img' src={Access} alt='sk' />
-                            <h4 className='skill-name'>Accessability</h4>
                         </div>
                     </div>
                 </div>
