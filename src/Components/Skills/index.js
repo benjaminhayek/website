@@ -64,10 +64,6 @@ const Skills = () => {
                             <img className='skill-img' src={JQuery} alt='sk' />
                             <h4 className='skill-name'>JQuery</h4>
                         </div>
-                        <div className='skill-pics'>
-                            <img className='skill-img' src={NodeJS} alt='sk' />
-                            <h4 className='skill-name'>NodeJS</h4>
-                        </div>
                     </div>
                 </div>
                 <div className='skills-content'>
@@ -89,6 +85,10 @@ const Skills = () => {
                         <div className='skill-pics'>
                             <img className='skill-img' src={Postgres} alt='sk' />
                             <h4 className='skill-name'>PostgreSQL</h4>
+                        </div>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={NodeJS} alt='sk' />
+                            <h4 className='skill-name'>NodeJS</h4>
                         </div>
                     </div>
                 </div>
