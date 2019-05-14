@@ -13,6 +13,7 @@ import Heroku from '../utils/heroku.png';
 import Jest from '../utils/jest.png';
 import Enzyme from '../utils/enzyme.png';
 import Mongo from '../utils/mongo.jpeg';
+import Vue from '../utils/vue.png';
 import './Skills.css';
 
 const Skills = () => {
