@@ -66,6 +66,10 @@ const Skills = () => {
                             <img className='skill-img' src={JQuery} alt='sk' />
                             <h4 className='skill-name'>JQuery</h4>
                         </div>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={Vue} alt='sk' />
+                            <h4 className='skill-name'>Vue.js</h4>
+                        </div>
                     </div>
                 </div>
                 <div className='skills-content'>
