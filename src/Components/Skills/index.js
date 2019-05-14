@@ -91,6 +91,10 @@ const Skills = () => {
                             <img className='skill-img' src={NodeJS} alt='sk' />
                             <h4 className='skill-name'>NodeJS</h4>
                         </div>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={Mongo} alt='sk' />
+                            <h4 className='skill-name'>MongoDB</h4>
+                        </div>
                     </div>
                 </div>
                 <div className='skills-content'>
