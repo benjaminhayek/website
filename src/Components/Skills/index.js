@@ -1,7 +1,6 @@
 import React from 'react';
 import HTML from '../utils/html5.png';
 import ReactImg from '../utils/react.png';
-import Access from '../utils/accessability.png';
 import CSS from '../utils/css3.png';
 import SASS from '../utils/sass.png';
 import Bootstrap from '../utils/bootstrap.png';
@@ -13,6 +12,8 @@ import Github from '../utils/github.png';
 import Heroku from '../utils/heroku.png';
 import Jest from '../utils/jest.png';
 import Enzyme from '../utils/enzyme.png';
+import Mongo from '../utils/mongo.jpeg';
+import Vue from '../utils/vue.png';
 import './Skills.css';
 
 const Skills = () => {
@@ -30,10 +31,6 @@ const Skills = () => {
                         <div className='skill-pics'>
                             <img className='skill-img' src={ReactImg} alt='sk' />
                             <h4 className='skill-name'>JSX</h4>
-                        </div>
-                        <div className='skill-pics'>
-                            <img className='skill-img' src={Access} alt='sk' />
-                            <h4 className='skill-name'>Accessability</h4>
                         </div>
                     </div>
                 </div>
@@ -70,8 +67,8 @@ const Skills = () => {
                             <h4 className='skill-name'>JQuery</h4>
                         </div>
                         <div className='skill-pics'>
-                            <img className='skill-img' src={NodeJS} alt='sk' />
-                            <h4 className='skill-name'>NodeJS</h4>
+                            <img className='skill-img' src={Vue} alt='sk' />
+                            <h4 className='skill-name'>Vue.js</h4>
                         </div>
                     </div>
                 </div>
@@ -94,6 +91,14 @@ const Skills = () => {
                         <div className='skill-pics'>
                             <img className='skill-img' src={Postgres} alt='sk' />
                             <h4 className='skill-name'>PostgreSQL</h4>
+                        </div>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={NodeJS} alt='sk' />
+                            <h4 className='skill-name'>NodeJS</h4>
+                        </div>
+                        <div className='skill-pics'>
+                            <img className='skill-img' src={Mongo} alt='sk' />
+                            <h4 className='skill-name'>MongoDB</h4>
                         </div>
                     </div>
                 </div>
