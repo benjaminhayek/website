@@ -1,6 +1,6 @@
 import React from 'react';
-import BHResume from '../utils/BenHayekResume.jpg';
-import PDF from '../utils/BenHayekResume.pdf';
+import BHResume from '../utils/Res2.png';
+import PDF from '../utils/BenHayekResume1.pdf';
 import './Resume.css';
 
 const Resume = () => {
